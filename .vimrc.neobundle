@@ -6,12 +6,20 @@ if has('vim_starting')
   call neobundle#rc(expand('~/.vim/neobundle'))
 endif
 
-
 NeoBundle 'Shougo/vimproc.git'
 NeoBundle 'Shougo/vimshell.git'
+
+" ファイル選択
 NeoBundle 'Shougo/unite.vim'
+
+" colorscheme
 NeoBundle 'tomasr/molokai.git'
 
+" コメント
+NeoBundle 'scrooloose/nerdcommenter.git'
+
+
+NeoBundle 'project.tar.gz'
 
 filetype plugin on
 filetype indent on
