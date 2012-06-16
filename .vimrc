@@ -18,7 +18,6 @@ set autoindent
 set expandtab
 set smartindent
 set number
-set transparency=10
 set cursorline
 
 augroup cch
@@ -32,3 +31,8 @@ augroup END
 highlight CursorLine ctermbg=black guibg=black
 
 nmap <ESC><ESC> :nohlsearch<CR><ESC>
+
+set directory=~/.vim/swp
+set backupdir=~/.vim/backup
+
+set notitle
