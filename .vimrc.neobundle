@@ -6,14 +6,15 @@ if has('vim_starting')
   call neobundle#rc(expand('~/.vim/neobundle'))
 endif
 
-NeoBundle 'Shougo/vimproc.git'
-NeoBundle 'Shougo/vimshell.git'
+"NeoBundle 'Shougo/vimproc.git'
+"NeoBundle 'Shougo/vimshell.git'
 
 " ファイル選択
 NeoBundle 'Shougo/unite.vim'
 
 " colorscheme
 NeoBundle 'tomasr/molokai.git'
+NeoBundle 'altercation/vim-colors-solarized'
 
 " コメント
 NeoBundle 'scrooloose/nerdcommenter.git'

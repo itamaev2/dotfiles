@@ -4,11 +4,6 @@ source ~/dotfiles/.vimrc.color
 " neocomplcache
 let g:neocomplcache_enable_at_startup = 1
 
-" VimShell
-let g:vimproc_dll_path = $VIMRUNTIME . '/autoload/proc.so'
-
-"set runtimepath+=$HOME/.vimfiles
-
 syntax on
 set modeline
 set modelines=1
