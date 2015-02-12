@@ -24,6 +24,9 @@ NeoBundle 'scrooloose/nerdcommenter.git'
 
 NeoBundle 'project.tar.gz'
 
+" Syntax
+NeoBundle 'slim-template/vim-slim'
+
 call neobundle#end()
 
 filetype plugin indent on
