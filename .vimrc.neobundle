@@ -21,6 +21,9 @@ NeoBundle 'altercation/vim-colors-solarized'
 " コメント
 NeoBundle 'scrooloose/nerdcommenter.git'
 
+" Syntax
+NeoBundle 'slim-template/vim-slim'
+NeoBundle 'kchmck/vim-coffee-script'
 
 NeoBundle 'project.tar.gz'
 
