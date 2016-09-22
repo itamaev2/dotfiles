@@ -1,6 +1,7 @@
 source ~/.dotfiles/.vimrc.neobundle
 source ~/.dotfiles/.vimrc.color
 source ~/.dotfiles/.vimrc.unite
+source ~/.dotfiles/.vimrc.nerdtree
 
 " neocomplcache
 let g:neocomplcache_enable_at_startup = 1
