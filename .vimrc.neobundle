@@ -31,6 +31,9 @@ NeoBundle 'project.tar.gz'
 " Syntax
 NeoBundle 'slim-template/vim-slim'
 
+" Rainbow CSV
+NeoBundle 'mechatroner/rainbow_csv'
+
 call neobundle#end()
 
 filetype plugin indent on
